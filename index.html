@@ -4,124 +4,457 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Suporte - Meu Aplicativo</title>
+    <title>Política de Privacidade — Busca Inteligente</title>
 
     <style>
+        :root {
+            --primary: #173f5f;
+            --background: #f5f7fa;
+            --card: #ffffff;
+            --text: #17202a;
+            --muted: #5f6b76;
+            --border: #e3e7eb;
+        }
+
         * {
             box-sizing: border-box;
         }
 
         body {
             margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            background: #f5f5f7;
-            color: #1d1d1f;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Arial,
+                sans-serif;
+
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.7;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 60px 20px;
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 55px 20px;
         }
 
-        .card {
-            background: white;
-            border-radius: 18px;
-            padding: 40px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        .header-content {
+            max-width: 900px;
+            margin: auto;
         }
 
-        h1 {
-            margin-top: 0;
-            font-size: 36px;
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 42px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .date {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 7px 14px;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.12);
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 35px auto 60px;
+            padding: 0 20px;
+        }
+
+        article {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 45px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.05);
         }
 
         h2 {
-            margin-top: 35px;
+            color: var(--primary);
+            margin-top: 38px;
+            font-size: 23px;
+        }
+
+        h3 {
+            margin-top: 25px;
+            font-size: 18px;
         }
 
         p {
-            line-height: 1.6;
-            color: #555;
+            margin: 12px 0;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 7px 0;
         }
 
         .contact {
-            margin-top: 30px;
-            padding: 20px;
-            background: #f5f5f7;
+            margin-top: 20px;
+            padding: 22px;
             border-radius: 12px;
+            background: #f1f4f7;
+            border: 1px solid var(--border);
         }
 
-        a {
-            color: #007aff;
+        .contact a {
+            color: var(--primary);
+            font-weight: 600;
             text-decoration: none;
         }
 
         footer {
             text-align: center;
-            margin-top: 30px;
-            color: #777;
+            color: var(--muted);
             font-size: 14px;
+            padding: 0 20px 35px;
+        }
+
+        @media (max-width: 600px) {
+
+            header {
+                padding: 40px 20px;
+            }
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            main {
+                margin-top: 20px;
+                padding: 0 12px;
+            }
+
+            article {
+                padding: 25px 20px;
+                border-radius: 12px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <div class="container">
+<header>
+    <div class="header-content">
+        <h1>Política de Privacidade</h1>
+        <p>Busca Inteligente</p>
 
-        <div class="card">
+        <span class="date">
+            Última atualização: 25 de agosto de 2026
+        </span>
+    </div>
+</header>
 
-            <h1>Suporte</h1>
+<main>
 
-            <p>
-                Bem-vindo à página oficial de suporte do
-                <strong>Meu Aplicativo</strong>.
-            </p>
+<article>
 
-            <p>
-                Se você estiver enfrentando algum problema ou tiver
-                alguma dúvida sobre o aplicativo, entre em contato
-                conosco.
-            </p>
+    <p>
+        Esta Política de Privacidade descreve como o aplicativo
+        <strong>Busca Inteligente</strong> realiza o acesso, uso,
+        transmissão e tratamento de informações durante sua utilização.
+    </p>
 
-            <h2>Precisa de ajuda?</h2>
+    <p>
+        O Busca Inteligente é uma ferramenta de
+        <strong>uso exclusivo governamental e policial</strong>,
+        destinada à verificação de registros e apoio às atividades
+        de abordagem em campo, mediante utilização autorizada pela
+        instituição de segurança pública responsável.
+    </p>
 
-            <p>
-                Nossa equipe está disponível para ajudar com dúvidas,
-                problemas técnicos e outras questões relacionadas ao
-                aplicativo.
-            </p>
 
-            <div class="contact">
+    <h2>1. Objetivo do Aplicativo</h2>
 
-                <strong>Contato</strong>
+    <p>
+        O <strong>Busca Inteligente</strong> tem como finalidade
+        auxiliar agentes autorizados na consulta e verificação de
+        informações relacionadas a abordagens realizadas em campo.
+    </p>
 
-                <p>
-                    E-mail:
-                    <a href="mailto:suporte@exemplo.com">
-                        suporte@exemplo.com
-                    </a>
-                </p>
+    <p>
+        O acesso ao aplicativo é restrito a usuários previamente
+        autorizados pela instituição de segurança pública e está
+        condicionado à utilização de credenciais institucionais válidas.
+    </p>
 
-            </div>
 
-            <h2>Privacidade</h2>
+    <h2>2. Dados e Permissões Utilizados</h2>
 
-            <p>
-                Para consultar nossa Política de Privacidade,
-                <a href="privacy-policy.html">
-                    clique aqui
-                </a>.
-            </p>
+    <h3>2.1 Câmera e imagem facial</h3>
 
-        </div>
+    <p>
+        A câmera do dispositivo é utilizada exclusivamente e de forma
+        temporária para a captura da face do indivíduo abordado,
+        quando necessária à realização de uma consulta de reconhecimento
+        facial autorizada.
+    </p>
 
-        <footer>
-            © 2026 Meu Aplicativo. Todos os direitos reservados.
-        </footer>
+    <p>
+        A imagem facial capturada é utilizada exclusivamente para fins
+        de reconhecimento facial, mediante comparação com a base oficial
+        de dados mantida pela instituição de segurança pública responsável.
+    </p>
+
+    <p>
+        O aplicativo não cria, mantém ou disponibiliza no dispositivo
+        móvel perfis biométricos, templates faciais ou quaisquer outros
+        identificadores biométricos derivados da imagem capturada.
+    </p>
+
+
+    <h3>2.2 Geolocalização (GPS)</h3>
+
+    <p>
+        A localização do dispositivo é utilizada para registrar as
+        coordenadas geográficas, incluindo <strong>latitude e longitude</strong>,
+        associadas ao momento e ao local da realização do registro da abordagem.
+    </p>
+
+    <p>
+        Esse recurso tem finalidade exclusivamente operacional e
+        de auditoria institucional.
+    </p>
+
+
+    <h3>2.3 Credenciais do agente</h3>
+
+    <p>
+        Para autenticação, controle de acesso e auditoria das operações
+        realizadas, o sistema poderá utilizar informações institucionais
+        do agente, incluindo <strong>CPF e token de sessão</strong>,
+        conforme os mecanismos de autenticação adotados pela instituição.
+    </p>
+
+
+    <h2>3. Uso, Processamento e Armazenamento dos Dados</h2>
+
+    <p>
+        As informações utilizadas pelo aplicativo são processadas
+        exclusivamente para as finalidades institucionais e operacionais
+        para as quais o sistema foi desenvolvido.
+    </p>
+
+    <p>
+        As imagens faciais capturadas durante uma consulta
+        <strong>não são armazenadas na galeria nem mantidas como arquivos
+        permanentes no dispositivo móvel</strong>.
+    </p>
+
+    <p>
+        Eventuais dados temporários ou cache físico utilizados durante
+        a comunicação são eliminados após a conclusão da comunicação
+        com a infraestrutura responsável pelo processamento, conforme
+        o funcionamento técnico do aplicativo.
+    </p>
+
+    <p>
+        A imagem facial enviada durante uma consulta é utilizada
+        exclusivamente durante o processo de reconhecimento facial.
+        Após a conclusão do processamento, a imagem temporária utilizada
+        pela aplicação não permanece armazenada de forma permanente
+        no dispositivo móvel.
+    </p>
+
+    <p>
+        O processamento das consultas ocorre na
+        <strong>infraestrutura oficial da instituição de segurança pública</strong>,
+        mediante comunicação protegida e criptografada.
+    </p>
+
+    <p>
+        Os dados de localização e as informações necessárias ao
+        processamento da consulta são transmitidos de forma criptografada
+        aos servidores oficiais responsáveis pelo sistema.
+    </p>
+
+
+    <h2>4. Transmissão e Compartilhamento de Dados</h2>
+
+    <p>
+        O aplicativo não realiza compartilhamento de dados com
+        <strong>empresas privadas, serviços de publicidade, redes de
+        anúncios ou ferramentas de marketing</strong>.
+    </p>
+
+    <p>
+        A comunicação ocorre exclusivamente entre o dispositivo utilizado
+        pelo agente autorizado e a infraestrutura tecnológica oficial
+        da instituição de segurança pública, incluindo servidores,
+        APIs e mecanismos intermediários de comunicação eventualmente
+        utilizados pela instituição.
+    </p>
+
+    <p>
+        As imagens faciais capturadas durante uma consulta não são
+        utilizadas para:
+    </p>
+
+    <ul>
+        <li>fins comerciais;</li>
+        <li>publicidade;</li>
+        <li>marketing;</li>
+        <li>criação de perfis de consumidores;</li>
+        <li>análise comportamental;</li>
+        <li>treinamento comercial de modelos ou sistemas;</li>
+        <li>
+            qualquer finalidade diversa daquela expressamente autorizada
+            pela instituição de segurança pública.
+        </li>
+    </ul>
+
+
+    <h2>5. Retenção das Imagens Faciais</h2>
+
+    <p>
+        As imagens faciais capturadas durante uma consulta são utilizadas
+        somente pelo período necessário para a execução do processo
+        de reconhecimento facial autorizado.
+    </p>
+
+    <p>
+        O aplicativo <strong>não mantém cópia permanente das imagens
+        faciais no dispositivo móvel</strong> após a conclusão do processamento.
+    </p>
+
+    <p>
+        A retenção, eventual armazenamento e demais formas de tratamento
+        das informações nos sistemas institucionais seguem as políticas,
+        procedimentos e requisitos legais aplicáveis à instituição
+        responsável pela infraestrutura oficial.
+    </p>
+
+
+    <h2>6. Segurança das Informações</h2>
+
+    <p>
+        São adotadas medidas técnicas destinadas a proteger as informações
+        tratadas pelo aplicativo durante sua transmissão e utilização.
+    </p>
+
+    <p>
+        A comunicação entre o dispositivo móvel e a infraestrutura oficial
+        é realizada por meio de mecanismos de comunicação criptografada.
+    </p>
+
+    <p>
+        O acesso ao aplicativo é restrito a agentes previamente autorizados,
+        mediante autenticação institucional.
+    </p>
+
+    <p>
+        O uso do sistema também permite a realização de mecanismos de
+        auditoria relacionados às consultas efetuadas pelos usuários
+        autorizados.
+    </p>
+
+
+    <h2>7. Controle de Acesso e Responsabilidade do Usuário</h2>
+
+    <p>
+        O acesso ao Busca Inteligente exige
+        <strong>login governamental prévio e autorização institucional</strong>.
+    </p>
+
+    <p>
+        Ao utilizar o aplicativo, o agente declara estar autorizado
+        a utilizar o sistema e se compromete a utilizar suas funcionalidades
+        exclusivamente para finalidades institucionais e dentro dos
+        limites estabelecidos pelas normas e procedimentos da instituição.
+    </p>
+
+    <p>
+        As credenciais de acesso são pessoais e não devem ser
+        compartilhadas com terceiros.
+    </p>
+
+    <p>
+        As operações realizadas pelo usuário poderão ser registradas
+        para fins de segurança, auditoria, controle e responsabilização
+        institucional.
+    </p>
+
+
+    <h2>8. Finalidade do Tratamento</h2>
+
+    <p>
+        Os dados acessados ou processados pelo aplicativo são utilizados
+        exclusivamente para as finalidades institucionais relacionadas
+        à atividade policial e à consulta autorizada de informações
+        durante abordagens em campo.
+    </p>
+
+    <p>
+        O Busca Inteligente não utiliza essas informações para finalidades
+        comerciais, publicidade direcionada ou marketing.
+    </p>
+
+
+    <h2>9. Alterações desta Política</h2>
+
+    <p>
+        Esta Política de Privacidade poderá ser atualizada periodicamente
+        para refletir alterações legais, regulatórias, operacionais ou
+        tecnológicas relacionadas ao funcionamento do aplicativo.
+    </p>
+
+    <p>
+        Recomenda-se que os usuários consultem esta página periodicamente
+        para verificar eventuais alterações.
+    </p>
+
+    <p>
+        A data indicada no início desta política corresponde à data
+        da última atualização.
+    </p>
+
+
+    <h2>10. Contato</h2>
+
+    <div class="contact">
+
+        <p>
+            <strong>E-mail:</strong>
+            <a href="mailto:pm6@pm.al.gov.br">
+                pm6@pm.al.gov.br
+            </a>
+        </p>
+
+        <p>
+            <strong>Telefone:</strong>
+            <a href="tel:+5582988338940">
+                +55 (82) 98833-8940
+            </a>
+        </p>
 
     </div>
+
+</article>
+
+</main>
+
+
+<footer>
+
+    Busca Inteligente — Aplicativo de uso exclusivo
+    governamental e policial.
+
+</footer>
 
 </body>
 </html>
